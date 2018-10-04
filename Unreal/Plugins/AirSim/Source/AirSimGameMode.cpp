@@ -4,6 +4,7 @@
 #include "SimHUD/SimHUD.h"
 #include "common/Common.hpp"
 #include "AirBlueprintLib.h"
+#include "Runtime/Core/Public/Modules/ModuleManager.h"
 
 
 class AUnrealLog : public msr::airlib::Utils::Logger
