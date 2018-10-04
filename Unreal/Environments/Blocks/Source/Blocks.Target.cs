@@ -11,6 +11,6 @@ public class BlocksTarget : TargetRules
 		ExtraModuleNames.AddRange(new string[] { "Blocks" });
 
         //bUseUnityBuild = false;
-        //bUsePCHFiles = false;
+        bUsePCHFiles = false;
     }
 }
